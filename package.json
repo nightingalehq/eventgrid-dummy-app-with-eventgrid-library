@@ -1,0 +1,10 @@
+{
+  "name": "axios-test-with-eventgrid-library",
+  "version": "1.0.0",
+  "main": "script.js",
+  "author": "nikldev0 <nikhil.kanukuntla@protonmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@azure/eventgrid": "^4.5.0"
+  }
+}
