@@ -10,7 +10,7 @@ const accessKey = "3SErw+mCGtyvTWcVsa1lqd4iJiFW2IsUNmothj75J1A=";
 // const eventGridKey = "3SErw+mCGtyvTWcVsa1lqd4iJiFW2IsUNmothj75J1A=";
 // const apiEndpoint = "https://egtester.uksouth-1.eventgrid.azure.net/api";
 
-async function main() {
+async function onSubmit() {
   // Create the client used to publish events to the Event Grid Service
   const client = new EventGridPublisherClient(
     endpoint,
@@ -39,6 +39,6 @@ async function main() {
   ]);
 }
 
-main().catch(err) => {
+onSubmit().catch(err) => {
     console.error("The data submitted has encountered an error:", err)
 }
